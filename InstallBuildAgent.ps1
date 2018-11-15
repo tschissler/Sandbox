@@ -7,7 +7,7 @@ Param
     [Parameter(Mandatory=$True)]
     [string]$AgentPool,
     [Parameter(Mandatory=$True)]
-    [string]$AgentName,
+    [string]$AgentName
 )
 
 New-Item -ErrorAction Ignore -ItemType directory -Path c:\agent
